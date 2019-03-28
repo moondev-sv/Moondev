@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="1080"
+   viewBox="0 0 507.99999 285.75001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="Moon.svg"
+   inkscape:export-filename="/opt/lampp/htdocs/moondev/Assets/Media/Moon.svg.png"
+   inkscape:export-xdpi="95.743301"
+   inkscape:export-ydpi="95.743301">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="880.12508"
+     inkscape:cy="615.53886"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="717"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4485" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-11.249983)">
+    <ellipse
+       style="opacity:1;fill:#fff176;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.80352724;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4487"
+       cx="249.46429"
+       cy="135.98213"
+       rx="119.44047"
+       ry="118.68452"
+       inkscape:export-xdpi="95.743301"
+       inkscape:export-ydpi="95.743301" />
+    <circle
+       style="opacity:1;fill:#ffd54f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4489"
+       cx="195.79167"
+       cy="94.404739"
+       r="15.875"
+       inkscape:export-xdpi="95.743301"
+       inkscape:export-ydpi="95.743301" />
+    <circle
+       style="opacity:1;fill:#ffd54f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4491"
+       cx="259.29166"
+       cy="74.749985"
+       r="26.458332"
+       inkscape:export-xdpi="95.743301"
+       inkscape:export-ydpi="95.743301" />
+    <circle
+       style="opacity:1;fill:#ffd54f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4493"
+       cx="208.64285"
+       cy="142.78571"
+       r="15.875"
+       inkscape:export-xdpi="95.743301"
+       inkscape:export-ydpi="95.743301" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.9942627px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#ffd54f;fill-opacity:1;stroke:none;stroke-width:1.21864235;"
+       x="309.06891"
+       y="186.79341"
+       id="text4505"
+       transform="scale(0.81881641,1.221275)"
+       inkscape:export-xdpi="95.743301"
+       inkscape:export-ydpi="95.743301"><tspan
+         sodipodi:role="line"
+         id="tspan4503"
+         x="309.06891"
+         y="186.79341"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#ffd54f;fill-opacity:1;stroke-width:1.21864235;">&lt; /&gt;</tspan></text>
+  </g>
+</svg>

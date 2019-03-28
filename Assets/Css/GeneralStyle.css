@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Media/Background/Background.svg);
+    /*background-image: linear-gradient(to bottom,#3f51b5,#1a237e);
+    background-color: #1a237e;*/
+}
+
+.svg {
+    display: block;
+    position: relative;
+    margin: auto;
+    height: 150px;
+    width: 60%;
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Content {
+    /*background-image: linear-gradient(to bottom, #3f51b5, #161f50);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    background-color: rgba(63, 81, 181, 0.712);
+    z-index: 0;
+    min-height: 250px;
+    width: 100%;
+    padding: 20px 50px;
+    position: relative;
+}
+
+.Content.First {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(to bottom, #3f51b5, rgba(63, 81, 181, 0.712));
+}
+
+.Content.Last {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(to top, #3f51b5, rgba(63, 81, 181, 0.712));
+    border-bottom: 2px solid #cfd8dc;
+}
+
+.Footer {
+    min-height: 100px;
+}
+
+.BannerCont {
+    min-height: 150px;
+    max-height: 450px;
+    width: 60%;
+    display: none;
+    margin: auto;
+    border-radius: 5px;
+}
+
+a.Button1 {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 300px;
+    border: 2px solid #cfd8dc;
+    border-radius: 5px;
+    padding: 30px;
+    color: #cfd8dc;
+    margin: auto;
+    margin-top: 100px;
+    transition: background-color 1s, color 1s; 
+    -moz-transition: background-color 1s, color 1s;
+    -o-transition: background-color 1s, color 1s;
+    -webkit-transition: background-color 1s, color 1s;
+}
+
+a.Button1:hover {
+    background-color: #2c3a8a;
+    color: white;
+}
+
+.Article {
+    position: relative;
+    display: block;
+    padding: 45px;
+    min-height: 300px;
+    max-height: 500px;
+    width: 80%;
+    margin: auto;
+    color: #cfd8dc;
+}
+
+.Article h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.Article img {
+    width: 40%;
+    max-width: 350px;
+}
+
+.Article.Left img {
+    border-right: 2px solid #cfd8dc;
+}
+
+.Article.Right img {
+    border-left: 2px solid #cfd8dc;
+}
+
+.Article p {
+    text-align: justify;
+    width: 60%;
+    padding-top: 60px;
+    padding: 25px;
+    font-size: 20px; 
+    line-height: 30px;
+}
+
+.Article img, .Article p {
+    display: inline-block;
+    min-height: 250px;
+    max-height: 450px;
+}
+
+.Article.Left p {
+    float: right;
+}
+
+.Article.Right p {
+    float: left;
+}
+
+.Article img.Mob {
+    display: none;
+}
+
+.Article img.Desk {
+    display: inline-block;
+}
+
+.Footer {
+    padding: 35px;
+    padding-bottom: 5px;
+}
+
+.Footer p {
+    color: white;
+    font-size: 20px;
+}
+
+.Footer p.Info, .Footer p.Follow {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+
+.Footer p.Follow {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.SocialIcons {
+    height: 40px;
+    width: 40px;
+}
+
+.IconCont {
+    display: block;
+    margin: auto;
+    max-width: 100px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        background-image: url(../Media/Background/Background-Mob.svg);
+        background-attachment: scroll;
+    }
+
+    .Content {
+        padding: 20px 15px;
+    }
+
+    a.Button1 {
+        font-size: 16px;
+        width: 50%;
+        padding: 15px;
+        border: 1px solid #cfd8dc;
+    }
+
+    .Article {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .Article, .Article img, .Article p, .Article h1 {
+        max-height: none;
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    .Article img {
+        height: 325px;
+        margin: auto;
+    }
+
+    .Article.Right img.Mob {
+        display: block;
+    }
+    
+    .Article.Right img.Desk {
+        display: none;
+    }
+
+    .Article.Left img, .Article.Right img {
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px solid #cfd8dc;
+    }
+
+    .Article.Left p {
+        font-size: 16px;
+    }
+
+    .Article.Right p, .Article.Left p {
+        float: none;
+    }
+
+    .Footer p {
+        font-size: 16px;
+    }
+
+    .Footer p.Follow {
+        font-size: 20px;
+    }
+
+    .Footer img {
+        display: inline-block;
+        margin: auto;
+    }
+
+    .BannerCont {
+        width: 80%;
+    }
+
+    .Content.First {
+        padding: 80px 15px;
+    }
+
+    .Content.Last {
+        border-bottom: 1px solid #cfd8dc;
+    }
+
+    .svg {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .BannerCont {
+        width: 100%;
+    }
+}
+
